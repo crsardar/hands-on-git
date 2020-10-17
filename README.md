@@ -1,2 +1,2 @@
-# handson-git
-Playing with Git
+# hands-on-git
+Playing with Git.
