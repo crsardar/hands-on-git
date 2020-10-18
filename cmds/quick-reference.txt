@@ -1,0 +1,13 @@
+# Quick Rerference
+
+# See All Users
+	git config --global --list
+
+# Set User Name
+	git config --global user.name "Chittaranjan Sardar"
+
+# Set E-Mail Add
+	git config --global user.email "my_mail@domain.com"
+
+# Status
+	git status
