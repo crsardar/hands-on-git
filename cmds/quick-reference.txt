@@ -1,4 +1,4 @@
-# Quick Rerference
+# Quick Reference
 
 # See All Users
 	git config --global --list
@@ -11,3 +11,14 @@
 
 # Status
 	git status
+
+# Add 
+	git add file_name.txt
+	git add .
+
+# Commit 
+	git commit -m "Notes for commit"
+
+# Push To Remote 
+	git push origin main
+	git push
