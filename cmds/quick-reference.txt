@@ -1,5 +1,8 @@
 # Quick Reference
 
+# Git Config File Location
+	~/.gitconfig
+
 # See All Users
 	git config --global --list
 
@@ -56,6 +59,10 @@
 # Clone
 	git clone https://repo-url
 	
+# Update with remote
+	git pull origin main		# "orgin" = remote repo name, "main" = branch name
 	
+# Publish Local Commits
+	git push origin main 		# "orgin" = remote repo name, "main" = branch name 
 
 	
