@@ -57,7 +57,8 @@
 	git commit -m "Inline commit message"
 	
 # Add + Commit In Single Step 
-	git commit -am "This is commit message" 	# "-am", "a" = Add to Staging, "m" = message
+	git commit -am "This is commit message" 	# This can only be done on any Already tracking file. 
+												# "-am", "a" = Add to Staging, "m" = message
 	
 # Clone
 	git clone https://repo-url
@@ -67,5 +68,8 @@
 	
 # Publish Local Commits
 	git push origin main 		# "orgin" = remote repo name, "main" = branch name 
+	
+# See The List Of All Tracking Files
+	git ls-files
 
 	
