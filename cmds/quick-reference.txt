@@ -51,6 +51,23 @@
 	
 	git add . 	# "." Recursively add all files, starting from present DIR to all Sub-DIR
 	
+	git add -A 	# "-A" Detects Add, Rename, Move
+		# OR
+		git add fine-name.txt
+		git add -u 
+	
+	
+# Undo-Add/Unstaged/Revert Stagged File
+	git reset HEAD file-name.txt
+	#	or
+	git restore --staged file-name.txt
+	
+# Undo-Local Chnages(which is not "add"ed yet)
+	git checkout -- filename
+	#	or
+	git restore file-name.txt
+	
+	
 # Commit Files (Moves files to Staging area + adding git Indexes)
 	git commit 		# Will open with default editor
 	
@@ -59,6 +76,11 @@
 # Add + Commit In Single Step 
 	git commit -am "This is commit message" 	# This can only be done on any Already tracking file. 
 												# "-am", "a" = Add to Staging, "m" = message
+	
+# Rename and Moving File
+	git mv old-file-name.txt new-file-name.txt 	
+		# undo it -> git mv new-file-name.txt old-file-name.txt 
+	
 	
 # Clone
 	git clone https://repo-url
