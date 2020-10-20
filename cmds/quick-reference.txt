@@ -20,5 +20,42 @@
 	git commit -m "Notes for commit"
 
 # Push To Remote 
-	git push origin main
+	git push origin main  # "origin" = remote name, "main" = branch name
+
 	git push
+
+# Configure N++ on Windows
+	notepad++ .bash_profile
+		# Inside .bash_profile 
+		alias npp='notepad++.exe -multiInst -nosession'
+	
+	cat ~/.gitconfig
+	git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+# Config TextMate on Mac
+	git config --global core.editor "mate -w"
+
+# Edit Configuration
+	git config --global -e
+
+# Create New Repo/Project
+	git init repo_name
+	
+	git init 	# To add git to an existing project(first move inside base dir of existing project)
+	
+# Add File
+	git add hipster.txt
+	
+	git add .
+	
+# Commit Files (Moves files to Staging area + adding git Indexes)
+	git commit 		# Will open with default editor
+	
+	git commit -m "Inline commit message"
+	
+# Clone
+	git clone https://repo-url
+	
+	
+
+	
