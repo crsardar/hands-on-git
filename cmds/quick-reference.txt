@@ -49,7 +49,7 @@
 # Add File
 	git add hipster.txt
 	
-	git add .
+	git add . 	# "." Recursively add all files, starting from present DIR to all Sub-DIR
 	
 # Commit Files (Moves files to Staging area + adding git Indexes)
 	git commit 		# Will open with default editor
