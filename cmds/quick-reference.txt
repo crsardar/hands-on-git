@@ -80,6 +80,21 @@
 # Rename and Moving File
 	git mv old-file-name.txt new-file-name.txt 	
 		# undo it -> git mv new-file-name.txt old-file-name.txt 
+		
+# Delete File
+	git rm file-name.txt
+	
+# See History
+	git log
+		# Press "Q" to exit from history
+	git log --abbrev-commit
+	git log --oneline --graph --decorate
+	git log first-coomit-id...last-commit-id # Ranged based log.
+	git log --since="3 days ago"
+	git log -- file-name.txt
+	git log --follow -- file-name.txt 	# History, even if file is Renamed
+	
+	git show commit-id
 	
 	
 # Clone
@@ -93,5 +108,32 @@
 	
 # See The List Of All Tracking Files
 	git ls-files
+	
+# Create Alias Command (hist)
+	git config --global alias.hist "log --all --oneline --graph --decorate"
+	
+# Mac P4Merge Configuration
+# https://www.perforce.com/downloads/visual-merge-tool
+	# For Diff
+	git config --global diff.tool p4merge
+	git config --global difftool.p4merge.path /Applications/p4merge.app/Contents/MacOS/p4merge 
+	# For Merge
+	git config --global merge.tool p4merge
+	git config --global mergetool.p4merge.path /Applications/p4merge.app/Contents/MacOS/p4merge
+	
+### Diff ----------------------->
 
+	# Staging Vs Working
+	git diff
+	git difftool 	# To open with P4Merge
+	
+	# Last Commit Vs Working
+	git diff HEAD 	
+	git difftool HEAD
+	
+	# Staged Vs Last Commit
+	git diff --staged HEAD
+	git difftool --staged HEAD
+	
+	
 	
