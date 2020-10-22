@@ -146,9 +146,18 @@
 	git diff main origin/main
 	git difftool main origin/main -- file_name.txt
 	
-	# 
 	
+### Un - Dos ----------------------->
 	
+	# Un - Do Locan changes (even not staged)
+	git restor . 	# Un - Do All Files
+	git restore file_name.txs
 	
+	# Un - Do Staged
+	git restore --staged file_name.txt
+	git reset HEAD file_name.txt
 	
+	# Un - Do Commit 
+	git reset HEAD~
 	
+	 
