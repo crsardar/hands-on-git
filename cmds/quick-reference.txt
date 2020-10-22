@@ -135,5 +135,20 @@
 	git diff --staged HEAD
 	git difftool --staged HEAD
 	
+	# Only On A Specific File
+	git diff --staged HEAD -- file_name.txt
+	
+	# Commit Vs Commit 
+	git diff commit_id_1 commit_id_2
+	git diff commit_id_1 HEAD
+	
+	# Local Commit/Local Repo/HEAD Vs Remote/origin
+	git diff main origin/main
+	git difftool main origin/main -- file_name.txt
+	
+	# 
+	
+	
+	
 	
 	
