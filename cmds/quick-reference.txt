@@ -146,6 +146,8 @@
 	git diff main origin/main
 	git difftool main origin/main -- file_name.txt
 	
+	# Between Branches 
+	git diff branch_one branch_two
 	
 ### Un - Dos ----------------------->
 	
@@ -174,7 +176,6 @@
 	# Create and Checkout to new branch
 	git checkout -b new_branch_name 
 	
-	
 	# Rename a branch
 	git branch -m old_branch_name new_branch_name 	# "-m" = move
 	
@@ -183,7 +184,30 @@
 	git branch -d branch_name 	# "-d" = delete
 	
 	
+### Branching ----------------------->
 
-
-
-
+	# Show all branches 
+	git branch -a
+	
+	# Create new branch
+	git branch name_of_new_branch
+	
+	# Move to other branch
+	git checkout name_of_new_branch
+	
+	# Create and Checkout to new branch
+	git checkout -b new_branch_name 
+	
+	
+	# Rename a branch
+	git branch -m old_branch_name new_branch_name 	# "-m" = move
+	
+	# Delete a branch
+	git checkout to_a_different_branch
+	git branch -d branch_name 	# "-d" = delete
+	
+	# Merge branches 
+	git checkour destination_branch
+	git merge source_branch
+	
+	
