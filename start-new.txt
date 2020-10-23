@@ -1,1 +1,4 @@
-Test Git Quick Start Demo
+Test Git Quick Start Demo.
+
+It is always good to learn something new.
+
