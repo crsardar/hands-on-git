@@ -210,4 +210,8 @@
 	git checkour destination_branch
 	git merge source_branch
 	
+	# Off FastForward merging 
+	git checkour destination_branch
+	git merge source_branch --no-ff
+	
 	
