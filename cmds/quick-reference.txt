@@ -211,12 +211,12 @@
 	
 	# Merge branches 
 	git checkour destination_branch
-	git merge source_branch
+	git merge source_branch_name
 	
 	# Off FastForward merging 
 	git checkour destination_branch
-	git merge source_branch --no-ff
+	git merge source_branch_name --no-ff
 	
 	# Auto merge 
-	git merge source_branch -m "Merge message"
+	git merge source_branch_name -m "Merge message"
 	
