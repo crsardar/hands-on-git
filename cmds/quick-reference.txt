@@ -84,7 +84,7 @@
 # Delete File
 	git rm file-name.txt
 	
-# See History
+## History ----------------------->
 	git log
 		# Press "Q" to exit from history
 	git log --abbrev-commit
@@ -93,6 +93,9 @@
 	git log --since="3 days ago"
 	git log -- file-name.txt
 	git log --follow -- file-name.txt 	# History, even if file is Renamed
+	
+	# See Graphical history of All Branches
+	git log --oneline --decorate --graph --all
 	
 	git show commit-id
 	
@@ -214,4 +217,6 @@
 	git checkour destination_branch
 	git merge source_branch --no-ff
 	
+	# Auto merge 
+	git merge source_branch -m "Merge message"
 	
