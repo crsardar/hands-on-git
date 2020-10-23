@@ -2,3 +2,6 @@ Test Git Quick Start Demo.
 
 It is always good to learn something new.
 
+
+
+Line 7 got something to tell.
