@@ -15,3 +15,5 @@ Adding a line to test rebase - 2.
 Adding a line to test rebase - 3.
 
 Merge test line 1.
+
+Merge test line 2.
