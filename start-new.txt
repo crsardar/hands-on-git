@@ -11,3 +11,5 @@ Control your mind, it is the key of the game.
 Adding a line to test rebase - 1.
 
 Adding a line to test rebase - 2.
+
+Adding a line to test rebase - 3.
