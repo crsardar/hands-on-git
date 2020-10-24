@@ -19,3 +19,5 @@ Merge test line 1.
 Merge test line 2.
 
 Merge test line 3.
+
+Rebase test line - 4.
