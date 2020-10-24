@@ -37,8 +37,12 @@ Branch 1 - Merge conflicting line 2.
 
 Rebase test line - 6.
 
+<<<<<<< HEAD
 Branch 1 - Rebase conflicting line 2.
 
 Branch 1 - Rebase conflicting line 3.
+=======
+Main - Rebase conflicting line 2.
+>>>>>>> Main - Rebase conflicting line 2
 
 Main - Merge conflicting line 2.
