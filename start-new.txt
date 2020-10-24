@@ -27,3 +27,5 @@ Rebase test line - 4.
 Rebase test line - 5.
 
 Rebase test line - 6.
+
+Main - Merge conflicting line 2.
