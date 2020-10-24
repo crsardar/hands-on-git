@@ -1,6 +1,6 @@
 Test Git Quick Start Demo.
 
-Merge conflicting line 1.
+Branch 1 - Merge conflicting line 1.
 
 It is always good to learn something new.
 
@@ -25,5 +25,7 @@ Merge test line 3.
 Rebase test line - 4.
 
 Rebase test line - 5.
+
+Branch 1 - Merge conflicting line 2.
 
 Rebase test line - 6.
