@@ -1,5 +1,7 @@
 Test Git Quick Start Demo.
 
+Main - Merge conflicting line 1.
+
 It is always good to learn something new.
 
 This is a comment on line number 5. 
