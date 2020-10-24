@@ -2,6 +2,9 @@ Test Git Quick Start Demo.
 
 Main - Merge conflicting line 1.
 
+Branch 1 - Merge conflicting line 1.
+
+Main - Rebase conflicting line 1.
 Branch 1 - Rebase conflicting line 1.
 
 Branch 1 - Merge conflicting line 1.
